@@ -65,4 +65,9 @@ dependencies {
     debugImplementation 'androidx.compose.ui:ui-test-manifest'
 
     implementation 'com.github.judemanutd:katexview:1.0.2'
+
+    //implementation 'io.github.kexanie.library:MathView:0.0.6'
+
+    implementation 'ru.noties:jlatexmath-android:0.2.0'
+
 }

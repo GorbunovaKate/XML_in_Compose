@@ -1,13 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-
-    <com.judemanutd.katexview.KatexView
-        android:id="@+id/katex_text"
+    <ru.noties.jlatexmath.JLatexMathView
+        android:id="@+id/math_view"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
-
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:padding="16dip"
+        app:jlmv_alignHorizontal="center"
+        app:jlmv_alignVertical="center"
+        app:jlmv_textSize="50sp"/>
 </LinearLayout>
